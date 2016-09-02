@@ -1,0 +1,7 @@
+<template name="orderList">
+    <ul>
+    {{#each orders}}
+        <li><a href="/order/{{_id}}">{{LocName}} ... </a>{{_id}}</li>
+    {{/each}}
+    </ul>
+</template>

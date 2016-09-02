@@ -1,0 +1,15 @@
+<template name="reviewList">
+
+    <table class="table">
+        {{#each data}}
+        <tr>
+            <td>{{ReviewPage}}</td>
+            <td>{{ReviewDate}}</td>
+            <td>{{FacilityId}}</td>
+            <td>{{ReviewCategory}}</td>
+            <td>{{ReviewText}}</td>
+        </tr>
+        {{/each}}
+    </table>
+
+</template>

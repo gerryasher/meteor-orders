@@ -1,0 +1,22 @@
+<template name="order">
+    <div class="container">
+        <h1>Order Detail Page</h1>
+
+        <table class="table">
+            <tr>
+                <td>LocName:</td>
+                <td>{{LocName}}</td>
+            </tr>
+            <tr>
+                <td>Street:</td>
+                <td>{{LocStreet}}</td>
+            </tr>
+            <tr>
+                <td>CSZ:</td>
+                <td>{{LocCSZ}}</td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        {{> yield "reviewList"}}
+    </div>
+</template>

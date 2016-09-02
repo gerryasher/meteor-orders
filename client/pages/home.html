@@ -1,0 +1,12 @@
+<template name="home">
+    <div class="container">
+        <h1>Home Page</h1>
+        {{> orderList}}
+    </div>
+<hr />
+    <ul>
+        {{#each data}}
+        <li>{{FacilityId}}</li>
+        {{/each}}
+    </ul>
+</template>
